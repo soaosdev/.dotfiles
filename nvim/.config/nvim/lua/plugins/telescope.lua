@@ -44,5 +44,21 @@ return {
 		config = function(_, _)
 			require("telescope").load_extension("project")
 		end
+	},
+	{
+		'davidgranstrom/telescope-scdoc.nvim',
+		dependencies = {
+			'nvim-telescope/telescope.nvim',
+			'nvim-lua/plenary.nvim',
+		},
+		cmd = {
+			"Telescope scdoc",
+		},
+		keys = {
+			{ "<leader>fs", "<cmd>Telescope scdoc<cr>", desc = "Search scdoc" }
+		},
+		config = function(_, _)
+			require("telescope").load_extension("scdoc")
+		end
 	}
 }
