@@ -14,7 +14,7 @@ return {
 		{"<leader>zc", "<CMD>Telekasten show_calendar<CR>", desc="Show Calendar"},
 		{"<leader>zb", "<CMD>Telekasten show_backlinks<CR>", desc="Show Backlinks"},
 		{"<leader>zI", "<CMD>Telekasten insert_img_link<CR>", desc="Insert Image Link"},
-		{"i", "[[", "<CMD>Telekasten insert_link<CR>", desc="Insert Link"},
+		{"[[", "<CMD>Telekasten insert_link<CR>", desc="Insert Link", mode={'i'}},
 	},
 	cmd = {
 		"Telekasten"
