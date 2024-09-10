@@ -60,5 +60,11 @@ return {
 		config = function(_, _)
 			require("telescope").load_extension("scdoc")
 		end
+	},
+	{
+		'nvim-telescope/telescope-dap.nvim',
+		config = function()
+			require('telescope').load_extension('dap');
+		end
 	}
 }
