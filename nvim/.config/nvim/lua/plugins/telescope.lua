@@ -9,13 +9,14 @@ return {
 				},
 				project = {
 					base_dirs = {
-						"~/.local/src"
+						"~/repo"
 					},
 				},
 			}
 		},
 		keys = {
-			{ "<leader>fd", "<cmd>Telescope diagnostics<cr>", desc = "Find Diagnostics" }
+			{ "<leader>fd", "<cmd>Telescope diagnostics<cr>", desc = "Find Diagnostics" },
+			{ "<leader>fg", "<cmd>Telescope live_grep<cr>", desc = "Live Grep" }
 		},
 	},
 	{

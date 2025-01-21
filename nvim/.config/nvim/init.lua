@@ -5,6 +5,9 @@ vim.o.relativenumber = true
 vim.o.clipboard = "unnamedplus"
 vim.o.conceallevel = 3
 vim.o.termguicolors = true
+vim.o.expandtab = true
+vim.o.shiftwidth = 4
+vim.o.tabstop = 4
 
 -- Settings for enforcing good habits
 vim.o.mouse=''
