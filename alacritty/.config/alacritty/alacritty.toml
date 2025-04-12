@@ -1,7 +1,7 @@
 
 [font]
 normal = { family = "Anonymous Pro" }
-size = 10.0
+# size = 11.0
 
 [env]
 TERM = "xterm-256color"
@@ -11,5 +11,5 @@ bindings = [{ key = "N", mods = "Shift|Control", action = "CreateNewWindow" },]
 
 [general]
 import = [
-    "~/.config/alacritty/themes/everforest-dark.toml"
+    "~/.config/alacritty/themes/hyper.toml"
 ]

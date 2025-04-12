@@ -36,13 +36,7 @@ return {
                 },
             },
             servers = {
-                rust_analyzer = {
-                    mason = false,
-                    settings = {
-                        cargo = {
-                            allFeatures = true,
-                        }
-                    }
+                ts_ls = {
                 },
                 lua_ls = {
                     settings = {
